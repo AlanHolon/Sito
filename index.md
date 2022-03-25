@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/AlanHolon/Sito/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
