@@ -27,7 +27,13 @@ Syntax highlighted code block
 ```
 [Cerca](https://github.com/AlanHolon/Sito/blob/gh-pages/Funzione1.pdf)
 
-<a href="https://github.com/AlanHolon/Sito/raw/gh-pages/Funzione1.pdf" target="_blank"> PDF /a>
+<a href="https://github.com/AlanHolon/Sito/raw/gh-pages/Funzione1.pdf" target="_blank"> PDF </a>
+
+<script type="text/tikz">
+  \begin{tikzpicture}
+    \draw (0,0) circle (1in);
+  \end{tikzpicture}
+</script>
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
