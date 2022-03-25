@@ -1,6 +1,3 @@
-<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
-<script src="https://tikzjax.com/v1/tikzjax.js"></script>
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/AlanHolon/Sito/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
@@ -31,12 +28,6 @@ Syntax highlighted code block
 [Cerca](https://github.com/AlanHolon/Sito/blob/gh-pages/Funzione1.pdf)
 
 <a href="https://github.com/AlanHolon/Sito/raw/gh-pages/Funzione1.pdf" target="_blank"> PDF </a>
-
-<script type="text/tikz">
-  \begin{tikzpicture}
-    \draw (0,0) circle (1in);
-  \end{tikzpicture}
-</script>
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
