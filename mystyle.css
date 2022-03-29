@@ -1,0 +1,65 @@
+body {
+  background-color: skyblue;
+  border-style: none;
+}
+
+@keyframes anim {
+  from {opacity: 0.7;}
+  to {opacity: 1;}
+}
+
+div{
+  float: left;
+  padding: 2%;
+  width: 96%;
+  transition: font-size .2s;
+}
+
+div:active{
+  box-shadow: 10px 10px;
+  background-color: green;
+  font-size: 20pt;
+}
+
+.tit{
+  font-size: 40pt;
+}
+
+.leftcol {
+  color: red;
+  text-align: right;
+  width: 16%;
+}
+
+.rightcol {
+  color: red;
+  text-align: left;
+  width: 16%;
+}
+
+.midcol {
+  font-size: 18pt;
+  color: red;
+  text-align: justify;
+  background-color: aliceblue;
+  width: 56%;
+}
+
+@media screen and (max-width: 500px) {
+.leftcol {
+  text-align: left;
+  width: 96%
+}
+.rightcol {
+  width: 96%
+}
+.midcol {
+  width: 96%
+}
+}
+
+@media screen and (min-width: 600px) {
+.dim {
+  width: 50%
+}
+}
