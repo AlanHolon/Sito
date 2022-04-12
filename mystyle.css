@@ -21,6 +21,12 @@ div:active{
   font-size: 20pt;
 }
 
+.fix{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
 .tit{
   font-size: 40pt;
 }
