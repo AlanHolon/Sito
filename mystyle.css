@@ -16,7 +16,7 @@ div{
   transition: font-size .2s;
 }
 
-div:active{
+#div:active{
   box-shadow: 10px 10px;
   background-color: green;
   font-size: 20pt;
