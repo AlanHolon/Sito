@@ -16,20 +16,32 @@
 <meta name=viewport content="width=device-width,initial-scale=1">  
 <meta charset="utf-8"/>
 <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".leftcol").load("demo_test.txt p1");
+  });
+});
+</script>    
     
 <body>
-    <div class="fix"><img src="Logo2.svg" alt="Italian Trulli" style="width:100%;max-height: 50px"></div>
+    <div class="fix">
+    <div class="menubtn">
+        MENU
+        <button class="hmenu">Ciao</button>
+        <button class="hmenu">Ci</button>
+        <button>Get External Content</button>
+    </div>
+        <img src="Logo2.svg" alt="pRoof" style="width:80%; max-height: 50px"></div>
     <div class="main">
-    <h1 class="tit">ciao</h1>
     <div class="leftcol"><p>Ciao</p></div>
-    <div class="midcol"><img src="Logo2.svg" alt="Italian Trulli" style="width:100%;max-height: 150px;"><p>Ciao</p></div>
+    <div class="midcol"><iframe src="Funzione1.pdf" position="fixed" width="100%" height="200vh"></iframe>
+        ciao</div>
     <div class="rightcol"><p>Ciao</p></div>
-    <div class="midcol"><img src="Logo2.svg" alt="Italian Trulli" style="width:100%;"><p>Ciao</p></div>
-    <div class="midcol"><img src="Logo2.svg" alt="Italian Trulli" style="width:100%;"><p>Ciao</p></div>
-    <div class="midcol"><img src="Logo2.svg" alt="Italian Trulli" style="width:100%;"><p>Ciao</p></div>
-        <div class="midcol"><img src="Logo2.svg" alt="Italian Trulli" style="width:100%;"><p>Ciao</p></div></div>
+    </div>
 </body>
 
 <!--When \(a A \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
