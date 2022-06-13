@@ -22,7 +22,7 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $(".leftcol").load("demo_test.txt p1");
+    $(".leftcol").load($(this).attr('id'));
   });
 });
 </script>    
@@ -32,8 +32,8 @@ $(document).ready(function(){
     <div class="menubtn">
         MENU
         <button class="hmenu">Ciao</button>
-        <button class="hmenu">Ci</button>
-        <button class="hmenu">Get External Content</button>
+        <button class="hmenu" id="file:///home/alessandro/filetele.txt">Ci</button>
+        <button class="hmenu" id="demo_test.txt">Get External Content</button>
     </div>
         <img src="Logo2.svg" alt="pRoof" style="width:80%; max-height: 50px"></div>
     <div class="main">
